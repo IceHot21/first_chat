@@ -1,0 +1,29 @@
+.message {
+    display: flex;
+
+    &_avatar {
+      img {
+        border-radius: 50px;
+        width: 33px;
+        height: 33px;
+        margin-right: 13px;
+        margin-bottom: 20px;
+      }
+    }
+    &_buble {
+      background: #333399;
+      box-shadow: 0.1px 5px 5px rgba(54, 116, 255, 0.196733);
+      border-radius: 12px 12px 12px 0.1px;
+      padding: 15px;
+      margin-bottom: 8px;
+    }
+  &_date {
+    font-size: 12px;
+    opacity: 0.5;
+  }
+
+  &_text {
+    color: #fff;
+    line-height: 20px;
+  }
+  }
